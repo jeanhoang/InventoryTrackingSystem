@@ -17,14 +17,14 @@ Possible future improvements should include:
 
 PROJECT INSTRUCTIONS
 Install the followings to run the project. 
-I.	JAVA JDK
++ JAVA JDK
 To avoid incompatibility with Spring Boot, JDK 11 is used for this project. 
 Navigate to https://adoptium.net/?variant=openjdk11 , and  download and run the OpenJDK 11 (LTS) Installer. Choose default installation options. Then reboot
-II.	Eclipse
++ Eclipse
 Download Eclipse IDE through: https://eclipse.org/downloads/, choose the latest Eclipse Installer. After executing the installer package, choose Eclipse IDE for Enterprise Java Developers.
-III.	Spring tools
++ Spring tools
 From eclipse, navigate to Help -> Eclipse Marketplace to install Spring Tools 4. 
-IV.	NPM
++ NPM
 Navigate to https://nodejs.org/en/download/ and download the Node.JS installer for your system.
 
 To run the project:
