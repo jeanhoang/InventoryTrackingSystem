@@ -5,4 +5,4 @@ Challenge link: https://docs.google.com/document/d/1wir0XQuviR6p-uNEUPzsGvMFwqgM
 This project creates a simple inventory tracking web app with basic CRUD functionality using Spring boot. 
 The additional feature chosen for this challenge is: Push a button export product to a CSV.
 
-Please refer to installation and instruction docs to see the step by step on how to get the application running. 
+Please refer to the instruction document to see the step by step on how to get the application running. 
