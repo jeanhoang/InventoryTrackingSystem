@@ -15,4 +15,20 @@ Possible future improvements should include:
 + Filter option for different types of item
 + Add UI
 
-Please refer to the instruction document to see the step by step on how to get the application running. 
+PROJECT INSTRUCTIONS
+Install the followings to run the project. 
+I.	JAVA JDK
+To avoid incompatibility with Spring Boot, JDK 11 is used for this project. 
+Navigate to https://adoptium.net/?variant=openjdk11 , and  download and run the OpenJDK 11 (LTS) Installer. Choose default installation options. Then reboot
+II.	Eclipse
+Download Eclipse IDE through: https://eclipse.org/downloads/, choose the latest Eclipse Installer. After executing the installer package, choose Eclipse IDE for Enterprise Java Developers.
+III.	Spring tools
+From eclipse, navigate to Help -> Eclipse Marketplace to install Spring Tools 4. 
+IV.	NPM
+Navigate to https://nodejs.org/en/download/ and download the Node.JS installer for your system.
+
+To run the project:
+1.	Open Eclipse IDE and navigate to the project
+2.	Run as Spring Boot app
+3.	Open browser -> localhost:8080
+
