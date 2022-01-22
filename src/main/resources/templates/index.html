@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>Main Page</title>
+</head>
+<body>
+
+		<h1>List of Items</h1>
+		<br><br>	
+		
+		<table th:if="${itemList != null AND itemList != ''}">
+		
+			<tr th:each="i :${itemList}">
+			
+				<td th:text="${i.name}"></td>
+				<td><a th:href="@{/deleteItem/} + ${i.id}">EDIT</a></td>
+				<td><a th:href="@{/editItem/} + ${i.id}">DELETE</a></td>
+				
+			</tr> 
+	
+		</table>
+	
+	
+		<br><br><br><br><br>
+
+		<form method="post" action="" th:action="@{/insertItem}" th:object="${item}">
+	
+			<input type="hidden" name="id" th:field="*{id}"/><br>
+			Name: <input type="text" name="name" th:field="*{name}"/>
+			
+			<input type="submit" value="Insert!" />
+			
+			<br><br>
+			<a th:href="@{/items/}">Export to CSV</a>
+			
+		</form>
+
+</body>
+</html>
