@@ -15,7 +15,6 @@ Possible future improvements should include:
 + Filter option for different types of item
 + Add UI
 
-PROJECT INSTRUCTIONS
 Install the followings to run the project. 
 + JAVA JDK: 
 To avoid incompatibility with Spring Boot, JDK 11 is used for this project. 
