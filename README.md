@@ -1,7 +1,7 @@
 # Inventory Tracking System
 
 This project creates a simple inventory tracking web app with basic CRUD functionality using Spring boot. 
-The additional feature chosen for this challenge is: Push a button export product to a CSV.
+
 
 For the simplicity of the project, all CRUD functions are displayed within the index/main page.
 H2, JDBC and JPA are used for the database for this project, the edit and delete functions are executed by retrieving IDs for the chosen items.
